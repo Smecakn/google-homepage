@@ -1,5 +1,5 @@
 body, a {
-	font-family: Arial,sans-serif;
+	font: 14px Arial,sans-serif;
 	color: #404040;
 }
 
@@ -7,10 +7,30 @@ body, a {
 	text-align: center;
 }
 
+#logo {
+	margin-top: 20px;
+	padding-top: 132px;
+}
+
+.search-box {
+	margin-top: 20px;
+	height: 32px;
+	width: 570px;
+	padding-left: 10px;
+	font-size: large;
+	border: solid 1px #ddd;
+}
+
+.search-box:focus {
+	outline: none;
+	border: solid 1px #4387fd;
+}
+
 #nav {
 	text-align: right;
 	margin-right: 30px;
 	margin-top: 18px;
+	width: 100%;
 }
 
 #nav ul {
@@ -21,7 +41,7 @@ body, a {
 
 #nav ul li {
 	display: inline;
-	margin-left: 10px;
+	margin-left: 13px;
 }
 
 #nav ul li a {
@@ -36,10 +56,10 @@ body, a {
 	display: inline-block;
 	vertical-align: middle;
 	background-image: url(./images/apps.png);
-	background-size: 30px 28px;
+	background-size: 25px 28px;
 	background-repeat: no-repeat;
 	height: 28px;
-	width: 30px;
+	width: 25px;
 	opacity: .70;
 }
 
@@ -62,4 +82,32 @@ body, a {
 	padding: 0 12px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
+}
+
+#nav li:last-child a:hover {
+	text-decoration: none;
+}
+
+#footer {
+	width: 100%;
+	position: absolute;
+	display: block;
+}
+
+#footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer ul li {
+	display: inline;
+}
+
+#footer #left {
+	text-align: left;
+}
+
+#footer #right {
+	text-align: right;
 }
