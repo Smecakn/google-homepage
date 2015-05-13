@@ -1,0 +1,65 @@
+body, a {
+	font-family: Arial,sans-serif;
+	color: #404040;
+}
+
+#content {
+	text-align: center;
+}
+
+#nav {
+	text-align: right;
+	margin-right: 30px;
+	margin-top: 18px;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
+#nav ul li a {
+	text-decoration: none;
+}
+
+#nav ul li a:hover {
+	text-decoration: underline;
+}
+
+#nav ul li .apps {
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(./images/apps.png);
+	background-size: 30px 28px;
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 30px;
+	opacity: .70;
+}
+
+#nav ul li .apps:hover {
+	opacity: .99;
+	cursor: default;
+}
+
+#nav ul li .sign-in-btn {
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: #4285f4;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	background: linear-gradient(top,#4387fd,#4683ea);
+	color: #fff;
+	cursor: default;
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 12px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
